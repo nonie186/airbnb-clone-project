@@ -231,7 +231,7 @@ Represents a transaction for a booking.
 * One **User** (host) ⟶ can list multiple **Properties**
 
 
-# Feature-Breakdown:
+# Feature Breakdown:
 Identify and describe core features of the application, focusing on their relevance to the user experience and business logic.
 
 ### **User Management**
