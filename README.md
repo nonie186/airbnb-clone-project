@@ -234,10 +234,6 @@ Represents a transaction for a booking.
 # Feature-Driven Development:
 Identify and describe core features of the application, focusing on their relevance to the user experience and business logic.
 
-## Feature Breakdown
-
-This section outlines the core features of the Airbnb Clone application. Each feature mirrors essential functionality found in real-world booking platforms, contributing to a seamless and secure user experience.
-
 ### **User Management**
 
 Enables registration, login, and role-based access for guests and hosts. This feature secures user data with encrypted credentials and provides tailored dashboards depending on the user’s role (e.g., managing bookings or listings).
@@ -262,13 +258,46 @@ Manages secure payments for bookings, capturing essential transaction details li
 
 Implements authentication and authorization mechanisms (e.g., JWT tokens, role checks) to protect endpoints. This ensures only verified users can perform sensitive operations like creating properties or processing payments.
 
-### 🚀 **CI/CD Integration**
+###  **CI/CD Integration**
 
 Leverages GitHub Actions for continuous integration and deployment, automating testing and release processes. It ensures quick delivery of new features and fixes while maintaining stability across environments.
 
-
 # API Security Fundamentals:
 Implement and document key security measures to safeguard application data and ensure secure transactions.
+
+## API Security
+
+Security is a critical aspect of backend development, especially in applications that handle sensitive user data, financial transactions, and private content. The Airbnb Clone project applies industry-standard security practices to ensure the application remains secure, trustworthy, and resilient.
+
+### **Authentication**
+
+We use secure user authentication methods such as **JWT (JSON Web Tokens)** to verify user identity. Authentication ensures that only registered users can access their personal dashboards and perform operations like booking or listing properties.
+
+> **Why it matters**: Prevents unauthorized access to user accounts, protecting personal and financial information.
+
+### **Authorization**
+
+Role-based access control (RBAC) is enforced to determine user permissions. For example, only hosts can manage property listings, while guests can only make bookings and write reviews.
+
+> **Why it matters**: Ensures that users can only perform actions appropriate to their role, reducing the risk of data manipulation or unauthorized actions.
+
+###  **Rate Limiting**
+
+Rate limiting is implemented to prevent API abuse and brute-force attacks. It restricts the number of requests a user or IP can make within a certain time frame.
+
+> **Why it matters**: Protects the API from being overwhelmed by repeated requests, which could degrade performance or compromise security.
+
+### **Input Validation & Sanitization**
+
+All user input is validated and sanitized to prevent common vulnerabilities such as **SQL injection**, **XSS (Cross-Site Scripting)**, and **CSRF (Cross-Site Request Forgery)**.
+
+> **Why it matters**: Prevents attackers from injecting malicious scripts or queries into the application, ensuring system integrity.
+
+### **Secure Payments**
+
+Sensitive data related to transactions is encrypted and handled over **HTTPS**. Only authorized users can initiate and view payment activity.
+
+> **Why it matters**: Protects financial information and transaction records, ensuring secure and trusted payment processing.
 
 # CI/CD Pipeline Integration:
 Gain insights into setting up automated development pipelines, boosting efficiency and minimizing errors during the deployment phase.
