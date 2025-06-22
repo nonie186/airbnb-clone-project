@@ -93,6 +93,34 @@ Even in Agile environments, development and operations teams can be siloed. DevO
 # Technology Stack Breakdown:
 Explore the technologies used in a scalable project and their specific contributions to achieving project goals.
 
+### **Django**
+
+> A high-level Python web framework used to build robust, secure, and scalable backend services. Django provides built-in support for authentication, admin interface, and ORM (Object-Relational Mapping), making it ideal for rapidly developing RESTful APIs.
+
+### **MySQL**
+
+> A reliable, relational database management system used to store structured data such as user accounts, bookings, property listings, and reviews. MySQL ensures efficient querying and strong data integrity across the application.
+
+### **GraphQL**
+
+> A flexible query language for APIs that enables clients to request only the data they need. It improves frontend performance and developer experience by allowing precise, efficient communication with the backend.
+
+### **Docker**
+
+> A containerization tool used to package the application and its dependencies into isolated environments. Docker ensures consistency across development, testing, and production environments.
+
+### **GitHub**
+
+> A version control platform for managing source code, tracking changes, and facilitating collaboration among team members using Git workflows (e.g., branching, pull requests, issues).
+
+###  **GitHub Actions**
+
+> A CI/CD tool integrated into GitHub that automates testing, builds, and deployment pipelines. It ensures faster and more reliable delivery of updates to the application.
+
+### **Markdown**
+
+> A lightweight markup language used to format project documentation, including the README.md file. It helps structure information clearly and professionally.
+
 # Database Design Proficiency:
 Plan and document a relational database structure with entities, attributes, and relationships that mirror real-world requirements.
 
