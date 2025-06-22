@@ -12,19 +12,25 @@ Gain proficiency in designing and managing CI/CD pipelines for efficient deploym
 Strengthen their ability to document and plan complex software projects effectively.
 Develop an understanding of integrating technologies like Django, MySQL, and GraphQL in a unified ecosystem.
 Requirements
-To successfully complete the project tasks, learners must:
 
+-To successfully complete the project tasks, learners must:
 Have a GitHub account to create and manage repositories.
 Be familiar with Markdown syntax for README.md file creation.
 Possess prior experience with backend frameworks like Django and database systems such as MySQL.
 Understand software development lifecycle practices, including security, CI/CD, and database design.
 Be comfortable with modern tools such as Docker, GitHub Actions, or similar CI/CD platforms.
-Key Highlights
+
+-Key Highlights
 Hands-on GitHub Repository Management:
 Learn to initialize and structure a project repository, adhering to industry best practices.
 
 # Role Documentation:
 Understand and articulate the responsibilities of various team members, fostering collaboration in real-world scenarios.
+- Business analyst (BA)
+Understands customer’s business processes
+Translates customer business needs into requirements
+
+A business analyst dives deep into a customer’s workflows and analyzes stakeholder feedback to help a client formulate what their wants look like and align a customer’s vision with what a development team is producing. They translate an abstract product idea into a set of tangible requirements.
 
 # Technology Stack Breakdown:
 Explore the technologies used in a scalable project and their specific contributions to achieving project goals.
