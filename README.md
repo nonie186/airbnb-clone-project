@@ -4,32 +4,31 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 
 # Learning Objective
 This project is tailored to enhance your expertise in modern software development practices. By completing these tasks, learners will:
+- Master collaborative team workflows using GitHub.
+- Deepen their understanding of backend architecture and database design principles.
+- Implement advanced security measures for API development.
+- Gain proficiency in designing and managing CI/CD pipelines for efficient deployment.
+- Strengthen their ability to document and plan complex software projects effectively.
+- Develop an understanding of integrating technologies like Django, MySQL, and GraphQL in a unified ecosystem.
+  
+**Requirements**
+To successfully complete the project tasks, learners must:
+- Have a GitHub account to create and manage repositories.
+- Be familiar with Markdown syntax for README.md file creation.
+- Possess prior experience with backend frameworks like Django and database systems such as MySQL.
+- Understand software development lifecycle practices, including security, CI/CD, and database design.
+- Be comfortable with modern tools such as Docker, GitHub Actions, or similar CI/CD platforms.
 
-Master collaborative team workflows using GitHub.
-Deepen their understanding of backend architecture and database design principles.
-Implement advanced security measures for API development.
-Gain proficiency in designing and managing CI/CD pipelines for efficient deployment.
-Strengthen their ability to document and plan complex software projects effectively.
-Develop an understanding of integrating technologies like Django, MySQL, and GraphQL in a unified ecosystem.
-Requirements
-
-- To successfully complete the project tasks, learners must:
-Have a GitHub account to create and manage repositories.
-Be familiar with Markdown syntax for README.md file creation.
-Possess prior experience with backend frameworks like Django and database systems such as MySQL.
-Understand software development lifecycle practices, including security, CI/CD, and database design.
-Be comfortable with modern tools such as Docker, GitHub Actions, or similar CI/CD platforms.
-
-- Key Highlights
-Hands-on GitHub Repository Management:
-Learn to initialize and structure a project repository, adhering to industry best practices.
+**Key Highlights**
+- Hands-on GitHub Repository Management:
+- Learn to initialize and structure a project repository, adhering to industry best practices.
 
 # Role Documentation:
 Understand and articulate the responsibilities of various team members, fostering collaboration in real-world scenarios.
-- Business analyst (BA)
-Understands customer’s business processes
-Translates customer business needs into requirements
 
+**-- Business analyst (BA)**
+Understands the customer’s business processes
+Translates customer business needs into requirements
 A business analyst dives deep into a customer’s workflows and analyzes stakeholder feedback to help a client formulate what their wants look like and align a customer’s vision with what a development team is producing. They translate an abstract product idea into a set of tangible requirements.
 
 # Technology Stack Breakdown:
