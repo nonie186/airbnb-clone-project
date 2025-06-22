@@ -128,7 +128,7 @@ Plan and document a relational database structure with entities, attributes, and
 
 This section outlines the relational database structure for the Airbnb Clone project, representing how data is organized and connected throughout the application.
 
-### **Key Entities and Fields
+### **Key Entities and Fields**
 
 ### **User**
 
