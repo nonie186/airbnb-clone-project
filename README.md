@@ -124,6 +124,113 @@ Explore the technologies used in a scalable project and their specific contribut
 # Database Design Proficiency:
 Plan and document a relational database structure with entities, attributes, and relationships that mirror real-world requirements.
 
+##  Database Design
+
+This section outlines the relational database structure for the Airbnb Clone project, representing how data is organized and connected throughout the application.
+
+### **Key Entities and Fields
+
+### **User**
+
+Represents all users of the platform (guests and hosts).
+
+**Fields:**
+
+* `id` (Primary Key)
+* `name`
+* `email`
+* `password_hash`
+* `role` (guest/host)
+
+**Relationships:**
+
+* A user can create **multiple properties** (if a host).
+* A user can make **multiple bookings** (if a guest).
+* A user can write **multiple reviews**.
+* A user can have **multiple payments**.
+
+### 🏠 **Property**
+
+Represents a listing that users can book.
+
+**Fields:**
+
+* `id` (Primary Key)
+* `title`
+* `description`
+* `location`
+* `price_per_night`
+* `host_id` (Foreign Key → User)
+
+**Relationships:**
+
+* A property is **owned by one user** (host).
+* A property can have **multiple bookings**.
+* A property can receive **multiple reviews**.
+
+### 📅 **Booking**
+
+Represents a reservation made by a guest.
+
+**Fields:**
+
+* `id` (Primary Key)
+* `user_id` (Foreign Key → User)
+* `property_id` (Foreign Key → Property)
+* `start_date`
+* `end_date`
+* `status` (e.g., pending, confirmed, cancelled)
+
+**Relationships:**
+
+* A booking **belongs to one user** (guest).
+* A booking is made **for one property**.
+
+### ⭐ **Review**
+
+Represents feedback left by a guest after a stay.
+
+**Fields:**
+
+* `id` (Primary Key)
+* `user_id` (Foreign Key → User)
+* `property_id` (Foreign Key → Property)
+* `rating` (e.g., 1–5 stars)
+* `comment`
+* `created_at`
+
+**Relationships:**
+
+* A review is written **by one user**.
+* A review is **for one property**.
+
+### 💳 **Payment**
+
+Represents a transaction for a booking.
+
+**Fields:**
+
+* `id` (Primary Key)
+* `booking_id` (Foreign Key → Booking)
+* `user_id` (Foreign Key → User)
+* `amount`
+* `payment_method`
+* `payment_status`
+
+**Relationships:**
+
+* A payment is linked to **one booking**.
+* A payment is made **by one user**.
+
+### 🔗 **Entity Relationship Summary**
+
+* One **User** ⟶ many **Properties**, **Bookings**, **Reviews**, and **Payments**
+* One **Property** ⟶ many **Bookings** and **Reviews**
+* One **Booking** ⟶ one **Payment**
+* One **User** (guest) ⟶ can book multiple **Properties**
+* One **User** (host) ⟶ can list multiple **Properties**
+
+
 # Feature-Driven Development:
 Identify and describe core features of the application, focusing on their relevance to the user experience and business logic.
 
