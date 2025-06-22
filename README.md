@@ -149,7 +149,7 @@ Represents all users of the platform (guests and hosts).
 * A user can write **multiple reviews**.
 * A user can have **multiple payments**.
 
-### 🏠 **Property**
+### **Property**
 
 Represents a listing that users can book.
 
@@ -168,7 +168,7 @@ Represents a listing that users can book.
 * A property can have **multiple bookings**.
 * A property can receive **multiple reviews**.
 
-### 📅 **Booking**
+### **Booking**
 
 Represents a reservation made by a guest.
 
@@ -186,7 +186,7 @@ Represents a reservation made by a guest.
 * A booking **belongs to one user** (guest).
 * A booking is made **for one property**.
 
-### ⭐ **Review**
+### **Review**
 
 Represents feedback left by a guest after a stay.
 
@@ -204,7 +204,7 @@ Represents feedback left by a guest after a stay.
 * A review is written **by one user**.
 * A review is **for one property**.
 
-### 💳 **Payment**
+##**Payment**
 
 Represents a transaction for a booking.
 
@@ -222,7 +222,7 @@ Represents a transaction for a booking.
 * A payment is linked to **one booking**.
 * A payment is made **by one user**.
 
-### 🔗 **Entity Relationship Summary**
+### **Entity Relationship Summary**
 
 * One **User** ⟶ many **Properties**, **Bookings**, **Reviews**, and **Payments**
 * One **Property** ⟶ many **Bookings** and **Reviews**
@@ -233,6 +233,39 @@ Represents a transaction for a booking.
 
 # Feature-Driven Development:
 Identify and describe core features of the application, focusing on their relevance to the user experience and business logic.
+
+## Feature Breakdown
+
+This section outlines the core features of the Airbnb Clone application. Each feature mirrors essential functionality found in real-world booking platforms, contributing to a seamless and secure user experience.
+
+### **User Management**
+
+Enables registration, login, and role-based access for guests and hosts. This feature secures user data with encrypted credentials and provides tailored dashboards depending on the user’s role (e.g., managing bookings or listings).
+
+### **Property Management**
+
+Allows hosts to create, update, and delete property listings with details like title, description, price, and location. It ensures properties are easily discoverable and manageable, forming the core of the platform’s listing system.
+
+### **Booking System**
+
+Facilitates guests in booking available properties for specific date ranges. It includes status tracking (e.g., pending, confirmed, cancelled), conflict checking, and booking history—ensuring a smooth and reliable reservation flow.
+
+### **Review System**
+
+Enables guests to leave feedback and rate their stay after a booking. This feature fosters trust between users by promoting transparency and quality through public reviews and ratings.
+
+### **Payment Integration**
+
+Manages secure payments for bookings, capturing essential transaction details like amount, method, and status. This feature ensures seamless and trustworthy financial transactions between guests and hosts.
+
+### **API Security**
+
+Implements authentication and authorization mechanisms (e.g., JWT tokens, role checks) to protect endpoints. This ensures only verified users can perform sensitive operations like creating properties or processing payments.
+
+### 🚀 **CI/CD Integration**
+
+Leverages GitHub Actions for continuous integration and deployment, automating testing and release processes. It ensures quick delivery of new features and fixes while maintaining stability across environments.
+
 
 # API Security Fundamentals:
 Implement and document key security measures to safeguard application data and ensure secure transactions.
